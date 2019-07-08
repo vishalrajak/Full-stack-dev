@@ -1,0 +1,12 @@
+ #select_test{
+        display:none;
+      }
+      
+
+ .hlogin{
+        display:none;  /*for hiding login and signin button */
+      }
+
+#give-test{
+	display: none;
+}

@@ -1,0 +1,75 @@
+
+   #options input[type="text"]{
+      width:50%;
+    }
+
+    #options button{
+      margin-left:3%;
+    }
+
+    .update{
+
+      float:right;
+      margin-right:3%;
+    }
+    .list{
+      border-bottom:1px solid #26A69A;
+      margin-top:2%;
+    
+    }
+
+    #box input[type="submit"]{
+    margin-right:1%;
+    margin-left:2%;
+  }
+
+
+.list p{
+  width:65%;
+  word-wrap:break-word;
+}
+
+.list .btn{
+  font-size:1.8vh;
+  width:15%;
+  padding:0px;
+}
+
+#box .btn{
+  width:30%;
+  font-size:1.8vh;
+  padding:0px;
+}
+
+
+  #add,input[name="submit"]{
+  margin-bottom:2%;
+  width:30%;
+  font-size:1.8vh;
+  padding:0px;
+}
+
+
+#saved{
+  position:fixed;
+  background-color:#2bbbad;
+  color:white;
+  z-index:5; 
+}
+
+#pass-box{
+  display: none;
+}
+
+.test-abstraction,#options{
+  text-align: left;
+}
+
+#main p,label{
+  font-weight: bold;
+}
+
+   #loading{
+
+display:none;    
+   }

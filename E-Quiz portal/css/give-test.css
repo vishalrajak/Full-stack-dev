@@ -1,0 +1,101 @@
+ html,body,.container{
+        width:100%;
+        height:100%;
+        min-width:100%;
+        background-color: #EEEEEE;
+      }
+
+      #test-page-main{
+       width:100%;
+        height:100%;
+        overflow:hidden; 
+      }
+
+      .right{
+        display:none;
+      }
+
+      #question-container{
+       display:block;  
+        width:65%;
+        height:100%;
+        float:left;
+      }
+      #give-test-question{
+        height:60%;
+      }
+      
+      #paging{
+        
+        height:20%;
+
+      }
+      #question-list{
+        width:35%;
+        height:100%;
+        float:left;
+        overflow-y: auto;
+        
+      
+        
+      }
+      #paging .btn{
+        padding:0px !important;
+        font-size:2vh !important;
+        width:100%;
+      }
+
+      
+
+      #question-list button{
+        display:block;
+        text-overflow: ellipsis;    /* for getting dots in place of long text*/
+         white-space: nowrap;    
+         overflow: hidden;
+         background-color: #37474f;
+         font-size:2vh !important;
+         width:100%;
+         text-align:left;
+      }
+
+      #paging-1 div{
+        display:inline-block;
+        width:30%;
+        margin-left:2%;
+        margin-top:7%;
+      }
+      
+       
+    #options{
+      overflow-y:auto;
+      margin-left: 3%; 
+    }
+
+.modal-footer .btn{
+  width:40%;
+}
+
+
+p,label{
+        word-wrap:break-word;
+        color:#00838f;
+        text-transform: uppercase;
+      }
+
+      p{
+        padding-left: 1%;
+        font-weight: bold;
+        font-size: 2vh !important;
+      }
+
+.hlogin{
+        display:none;  /*for hiding login and signin button */
+      }
+
+      #note{
+        padding:0px;
+      }
+
+      .card{
+        bottom: 0.6%;
+      } 
