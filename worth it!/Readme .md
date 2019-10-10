@@ -1,4 +1,4 @@
-<h1> <b> ML- Flask APP : House Pricing Approximator.</h1></b>
+# ML- Flask APP : House Pricing Approximator
 
 <h1><b>Description</h1></b> Web Application that involves  
 taking in a user's information about their house and predicts the price of their house.</b></i>
@@ -7,7 +7,7 @@ taking in a user's information about their house and predicts the price of their
 Machine learning model deployed is Gradient Boosting model with huber loss and 1000 regression trees of depth 6. App is currently working on local server.
 Machine learning model is trained and objectified using pickle. Flask framework is used for the development. 
 
-(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/640px-Flask_logo.svg.png)
+![Flask](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/640px-Flask_logo.svg.png)
 
 __NOTE:__ `Flask` isn't the only web-framework available. There's `Django`, `Falcon`, `Hug` and many more. 
 
