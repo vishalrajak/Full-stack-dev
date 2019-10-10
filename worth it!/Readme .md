@@ -7,5 +7,14 @@ takingin a user's information about their house and predicts the price of their 
 Machine learning model deployed is Gradient Boosting model with huber loss and 1000 regression trees of depth 6. App is currently working on local server.
 Machine learning model is trained and objectified using pickle. Flask framework is used for the development. 
 
+<h2><u>Project file contents</h2></u>
+<ul>
+           <li> templates folder (browser interface)</li>
+           <li> Flask app file </li>
+           <li> Housing dataset </li>
+           <li> Model training code file </li>
+           <li> Object model pkl file </li>
+</ul>
+
 
            
