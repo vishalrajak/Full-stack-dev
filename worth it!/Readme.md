@@ -4,7 +4,6 @@
 taking in a user's information about their house and predicts the price of their house.</b></i>
 
 <h1><b>Project details</h1></b> Application takes estimation parameters from user in the browser and returns predicted house value to the user. This project aims to put trained machine learning models into production using Flask API.
-![Flask](model.png)
 
 Machine learning model deployed is Gradient Boosting model with huber loss and 1000 regression trees of depth 6. App is currently working on local server.
 Machine learning model is trained and objectified using pickle. Flask framework is used for the development. 
