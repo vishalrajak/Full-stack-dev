@@ -3,10 +3,8 @@
 <h1><b>Description</h1></b> Web Application that involves  
 taking in a user's information about their house and predicts the price of their house.</b></i>
 
-<h1><b>Project details</h1></b> Application takes estimation parameters from user in the browser and returns predicted house value to the user. This project aims to put trained machine learning models into production using Flask API.<br>
-
+<h1><b>Project details</h1></b> Application takes estimation parameters from user in the browser and returns predicted house value to the user. This project aims to put trained machine learning models into production using Flask API.<br><br>
 <img src="https://github.com/vishalrajak/Full-stack-dev/blob/master/worth%20it!/screenshot/model.PNG"
-     alt="Model"
      height = "400" width = "800" align = "middle" />
 
 Machine learning model deployed is Gradient Boosting model with huber loss and 1000 regression trees of depth 6. App is currently working on local server.
