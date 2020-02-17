@@ -1,7 +1,24 @@
-<h1><b> Sociospy - Social platforms accessing at your fingers </h1></b>
+<h1><b> Connecteaze - Django blog application portal for posting information about university and job </h1></b>
 
-<b>Sociospy is an google chrome extension. Its an acronym for social sites browsing tools a.k.a Sociospy or Social spider.
-The motive for this extension developement was usually individuals ends up loading many tabs with same website or they tend to go perpetually to the same homepage just with a new tab. That makes the browser more messed up with many tabs and creates inconvenience. 
-Sociospy provides single click access to all your favourite social media platforms. You can access the home page or can redirect to your account as well (Youtube account or gmail). Upgrades to the extension is flexible. You can add up more social media platforms as needed. Account logins can be automated through api requests and call with your credentials. This makes it a must extension for every browser. Bloggers or Editors with much frequent hovering between social platforms can get the benefits of this app.</b>
+<b>Connecteze is an web application build on Django framework. The motive for this application developement was usually to explore the powerful framework Django. Application performance include CRUD operations , utilizing Django ORM for backend , model creation etc. Functionalities include:</b>
+<ul>
+  <li> User Login </li>
+  <li>Sign up </li>
+  <li> Forget password </li>
+  <li> Email id validation and notification </li>
+  <li> Create user profile with pofile picture upload and update </li>
+  <li> Create , Delete , Update post of same login user </li>
+  <li> Read only post of different user </li>
+  </ul>
+  
 
-<i>**This extension is not yet published as many changes and upgrades are needed to be done**</i>
+<i><b>**Deployment options**</b></i>
+<ol>
+  <li> AWS Elastic Beanstalk for static application hosting or Heroku cloud application hosting . <b> Note - Profile picture update funcionality would require active filesystem. Hence, integration of file system with application hosting must be deployed</b> </li>
+  <li> AWS S3 for filesystem and AWS Elastic Beanstalk for applcation deployment (AWS EB can be replaced by Heroku or Python Anywhere)</li>
+  </ol>
+  
+<i><b>**Application interface:-**</b></i>
+Entire application user interface with functionalities are available as pictures in pics folder in the same project file. 
+
+  
