@@ -6,7 +6,7 @@
   <li>Sign up </li>
   <li> Forget password </li>
   <li> Email id validation and notification </li>
-  <li> Create user profile with pofile picture upload and update </li>
+  <li> Create user profile with profile picture upload and update </li>
   <li> Create , Delete , Update post of same login user </li>
   <li> Read only post of different user </li>
   </ul>
@@ -14,7 +14,7 @@
 
 <i><b>**Deployment options**</b></i>
 <ol>
-  <li> AWS Elastic Beanstalk for static application hosting or Heroku cloud application hosting . <b> Note - Profile picture update funcionality would require active filesystem. Hence, integration of file system with application hosting must be deployed</b> </li>
+  <li> AWS Elastic Beanstalk for static application hosting or Heroku cloud application hosting . <b> Note - Profile picture update functionality would require active filesystem. Hence, integration of file system with application hosting must be deployed</b> </li>
   <li> AWS S3 for filesystem and AWS Elastic Beanstalk for applcation deployment (AWS EB can be replaced by Heroku or Python Anywhere)</li>
   </ol>
   
