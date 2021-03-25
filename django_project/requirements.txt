@@ -29,7 +29,7 @@ python-dateutil==1.5
 pytz==2019.3
 pywin32==227
 pywin32-ctypes==0.2.0
-PyYAML==5.2
+PyYAML==5.4
 requests==2.20.1
 s3transfer==0.3.2
 semantic-version==2.5.0
